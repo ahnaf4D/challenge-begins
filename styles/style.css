@@ -12,11 +12,13 @@
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 60px;
 }
 .title {
   font-size: 1.75rem;
   font-weight: 700;
+  margin: 0;
 }
 .title a {
   text-decoration: none;
@@ -42,8 +44,6 @@ nav {
   background-color: #0d1321;
   color: white;
   font-size: 1.125rem;
-  /* margin: 10px 0px; */
-  /* margin: 10px; */
 }
 .btn-secondary:hover {
   background-color: white;
@@ -80,4 +80,207 @@ nav {
   font-size: 48px;
   padding: 10px;
   margin: 0;
+}
+.faq-area {
+  max-width: 90%;
+  background-color: #0d132105;
+  max-height: 100%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.faq-area > h1 {
+  text-align: center;
+  padding-top: 20px;
+  color: #0d1321;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0;
+}
+.faq-area > p {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.btn-bordered {
+  border: 1px solid #0d1321;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-size: 20px;
+  background-color: white;
+  color: #0d1321;
+}
+.inner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+body > section.faq-area > div > div:nth-child(1) > p {
+  width: 70%;
+}
+body > section.faq-area > div > div:nth-child(1) > h2 {
+  width: 80%;
+  margin: 0;
+}
+body > section.faq-area > div > div:nth-child(2) > img {
+  width: 300px;
+}
+.inner-box-secondary {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.text-center {
+  text-align: center;
+  margin: 6px;
+}
+.inspiration-area > p {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.embeded-video {
+  margin: 0px auto;
+  border-radius: 20px;
+  max-width: 900px;
+}
+.embeded-video > iframe {
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+  padding: 37px;
+  border-radius: 30px;
+  height: 400px;
+  margin: 20px;
+  outline: 2px solid #0d132133;
+}
+.target-area > p {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.link-primary {
+  font-size: medium;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.service-container {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  height: 317px;
+}
+.service-box-html {
+  background-color: #ff4c1e0d;
+  padding: 15px;
+  border-radius: 10px;
+}
+.service-box-css {
+  background-color: #004ce80d;
+  padding: 15px;
+  border-radius: 10px;
+}
+.service-box-js {
+  background-color: #ffdf000d;
+  padding: 15px;
+  border-radius: 10px;
+}
+.service-box > p {
+  width: 60%;
+}
+.next-mission > p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+.next-mission-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.mission-box {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 2px solid #c2bfbf;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+.support-area {
+  max-width: 80%;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6) 100%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url('../assets/handshake.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+  height: 355px;
+  margin: 0 auto;
+  color: white;
+}
+.support-area > article > h1 {
+  padding-top: 100px;
+  font-size: 32px;
+  color: white;
+}
+.support-area > article > p {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+.support-area > form > #suggesion {
+  width: 34%;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid;
+  font-size: medium;
+  padding: 10px;
+}
+.support-area > form {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+#submit-suggetion {
+  background-color: white;
+  border: none;
+  padding: 15px 16px;
+  font-size: medium;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#submit-suggetion:hover {
+  background-color: gray;
+  transition: 1s;
+  color: white;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #0d132108;
+  margin-top: 10px;
 }
